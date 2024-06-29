@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Storage</title>
+</head>
+<body>
+    <h1>Simple Storage DApp</h1>
+    <input type="number" id="inputValue" placeholder="Enter value">
+    <button onclick="setValue()">Set Value</button>
+    <button onclick="getValue()">Get Value</button>
+    <button onclick="getDoubleValue()">Get Double Value</button> <!-- Updated function name -->
+    <p>Stored Value: <span id="storedValue">0</span></p>
+    <p>Double Value: <span id="doubleValue">0</span></p>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
